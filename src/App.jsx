@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Navbar from "./Components/Navbar";
 import FoodCard from "./Components/FoodCard";
 import foodItems from "./Data/FoodData";
-// import Navbar1 from "./components/Navbar1";
+
 
 function App() {
   const [category, setCategory] = useState("All");
