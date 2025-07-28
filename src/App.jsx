@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import FoodCard from "./Components/FoodCard";
 import foodItems from "./Data/FoodData";
 
+
 function App() {
   const [category, setCategory] = useState("All");
   const [searchText, setSearchText] = useState("");
